@@ -19,6 +19,12 @@ pip install opencv-python
 Mediapipe provides pre-trained models for human posture estimation and when used with opencv it can be used for
 live estimation.
 
+#### download command
+```
+pip install mediapipe
+```
+
+
 </details>
 
 <details>
@@ -27,7 +33,14 @@ live estimation.
 ### numpy
 I don't know much about it but I used it to create empty windows I can put my mediapipe things in without the real stuff.
 
+#### download command (but its one of the default libraries.)
+```
+pip install numpy
+```
+
+
 </details>
+
 
 # files:
 
