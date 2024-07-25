@@ -8,14 +8,8 @@ def main():
     mp_drawing = mp.solutions.drawing_utils
 
     # Define custom drawing specifications
-    drawing_spec = mp_drawing.DrawingSpec(color=(255, 0, 0), thickness=2, circle_radius=2)  # Green color for nodes
-    connection_spec = mp_drawing.DrawingSpec(color=(0, 0, 255), thickness=2)  # Red color for connections
-
-    # Finger tip landmarks
-    finger_tips = [mp_hands.HandLandmark.THUMB_TIP, mp_hands.HandLandmark.INDEX_FINGER_TIP,
-                mp_hands.HandLandmark.MIDDLE_FINGER_TIP, mp_hands.HandLandmark.RING_FINGER_TIP,
-                mp_hands.HandLandmark.PINKY_TIP]
-
+    drawing_spec = mp_drawing.DrawingSpec(color=(0, 255, 0), thickness=2, circle_radius=2) # color of nodes in BGR format
+    connection_spec = mp_drawing.DrawingSpec(color=(255, 0, 0), thickness=2) # color of the lines in BGR format
 
     mp_face_mesh = mp.solutions.face_mesh
     face_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1)  # Set max_num_faces to 1 for single face tracking
@@ -38,7 +32,9 @@ def main():
                 # Draw face landmarks on the frame
                 for landmark in face_landmarks.landmark:
                     x, y = int(landmark.x * frame.shape[1]), int(landmark.y * frame.shape[0])
-                    cv2.circle(blank_image, (x, y), 2, (50, 50, 50), -1)
+
+                    # draw the spots and add color
+                    cv2.circle(blank_image, (x, y), 2,  (0, 255, 0), -1)
 
         if hand_results.multi_hand_landmarks:
             for hand_landmarks in hand_results.multi_hand_landmarks:
