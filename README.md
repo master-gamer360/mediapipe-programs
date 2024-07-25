@@ -94,3 +94,13 @@ It uses hand gestures to play games that incorporate the WASD control scheme
 
 </details>
 </details>
+
+# test files
+
+<details>
+<summary>face_hands_test.py</summary>
+
+## face_hands_test.py
+a test for face mesh with hand estimation
+
+<details>
