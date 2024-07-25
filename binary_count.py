@@ -9,8 +9,8 @@ mp_hands = mp.solutions.hands
 hands = mp_hands.Hands()
 mp_drawing = mp.solutions.drawing_utils
 
-node_spec = mp_drawing.DrawingSpec(color=(208, 253, 255), thickness=2, circle_radius=2) # color of nodes in BGR format
-lines_spec = mp_drawing.DrawingSpec(color=(130, 0, 75), thickness=2) # color of the lines in BGR format
+node_spec = mp_drawing.DrawingSpec(color=(0, 255, 0), thickness=2, circle_radius=2) # color of nodes in BGR format
+lines_spec = mp_drawing.DrawingSpec(color=(255, 0, 0), thickness=2) # color of the lines in BGR format
 
 
 # initialising the nodes for the finger stuff (see the readme for the image, you'll get what i mean.)
