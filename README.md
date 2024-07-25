@@ -45,8 +45,8 @@ it counts the ammount of fingers raised, works with both hands
 ## binary_count.py:
 counts the binary of fingers, if thumb and ring is up, the decimal value is 9.
 
-> [!tip]
-> If you do not know how to count binary on your fingers, here's a [video](https://www.youtube.com/watch?v=XKpWSKjdv4U).
+# tip
+If you do not know how to count binary on your fingers, here's a [video](https://www.youtube.com/watch?v=XKpWSKjdv4U).
 
 </details>
 
@@ -56,8 +56,8 @@ counts the binary of fingers, if thumb and ring is up, the decimal value is 9.
 ## hand_wasd.py
 It uses hand gestures to play games that incorporate the WASD control scheme
 
-> [!note]
-> the hand gestures of the left hand will appear right from the camera's prespective, so, keep that in mind.
+### note
+the hand gestures of the left hand will appear right from the camera's prespective, so, keep that in mind.
 
 <details>
 <summary>pictures of hand gestures</summary>
@@ -73,8 +73,8 @@ It uses hand gestures to play games that incorporate the WASD control scheme
 ![](https://cdn.discordapp.com/attachments/1265341827930652703/1266058944229412934/image.png?ex=66a3c4c6&is=66a27346&hm=9fe1e6003cc1ba7048836fc4a3a68f7aadbaaf76b933a6130a1e3a6b43caddf8&)
 
 ###  \\/\\/\\/\\/\\/
-> [!note]
-> for the right hand, the thumb and the pinky is switched
+
+## for the right hand, the thumb and the pinky is switched
 
 - right hand left
 ![](https://cdn.discordapp.com/attachments/1265341827930652703/1266059157975601384/image.png?ex=66a3c4f9&is=66a27379&hm=ed7974f495b65cf43fe5b265c97b2b5ce3421b9c965eb3cb3818c26d87c59c2d&)
