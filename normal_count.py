@@ -25,7 +25,7 @@ nodes = {
 }
 
 def main():
-        
+
     cap = cv2.VideoCapture(0)
     while cap.isOpened():
         success, image = cap.read()
@@ -60,12 +60,7 @@ def main():
             cv2.putText(image, f'Fingers Up: {fingers_up}', (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
             cv2.putText(blank_image, f'Fingers Up: {fingers_up}', (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
 
-            if fingers_up == 9:
-                import time
-                time.sleep(2)
-        cv2.putText(image, f'q to exit', (450, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
-
-        cv2.imshow('Hand Tracking', image)
+        # cv2.imshow('Hand Tracking', image)
         cv2.imshow("hand track but fake stuff only", blank_image)
         if cv2.waitKey(5) & 0xFF == ord("q"):
             break
