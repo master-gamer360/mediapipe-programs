@@ -38,8 +38,22 @@ I don't know much about it but I used it to create empty windows I can put my me
 pip install numpy
 ```
 
-
 </details>
+
+<details>
+<summary>pynput</summary>
+
+### Pynput
+A python library used to simulate things like mouse and keyboard clicks
+
+i used this for the hand_wasd.py file to simulate the WASD keys when a certain gesture is applied
+
+#### download command
+```
+pip install pynput
+```
+</details>
+
 
 
 # files:
