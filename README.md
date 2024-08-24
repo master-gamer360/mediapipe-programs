@@ -54,6 +54,21 @@ pip install pynput
 ```
 </details>
 
+<details>
+<summary>keyboard</summary>
+
+### Pynput
+similar to pynput.
+
+i used this for the volume.py program to simulate the volume up and down.
+
+#### download command
+```
+pip install keyboard
+```
+</details>
+
+
 
 
 # files:
