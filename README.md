@@ -98,30 +98,6 @@ counts the binary of fingers, if thumb and ring is up, the decimal value is 9.
 It uses hand gestures to play games that incorporate the WASD control scheme
 
 #### the hand gestures of the left hand will appear right from the camera's prespective, so, keep that in mind.
-
-<details>
-<summary>pictures of hand gestures</summary>
-
-
-- left hand right
-![](https://cdn.discordapp.com/attachments/1265341827930652703/1266058606298796136/image.png?ex=66a3c475&is=66a272f5&hm=0cb50f742432dff2b35b2b10b461032deea0f359e9c709bf2648d94046551cc3&)
-- left hand up
-![](https://cdn.discordapp.com/attachments/1265341827930652703/1266058759604797450/image.png?ex=66a3c49a&is=66a2731a&hm=d770bfc5f89329e8be07b5fd44d0025bb3caa71128bfb36fdd2c7d3295bf3fd7&)
-- left hand left
-![](https://cdn.discordapp.com/attachments/1265341827930652703/1266058850306363472/image.png?ex=66a3c4b0&is=66a27330&hm=4ea4da6379ca7dc2054b14af1f65400a19768180ccf4010859733f5d047785fb&)
-- left hand down
-![](https://cdn.discordapp.com/attachments/1265341827930652703/1266058944229412934/image.png?ex=66a3c4c6&is=66a27346&hm=9fe1e6003cc1ba7048836fc4a3a68f7aadbaaf76b933a6130a1e3a6b43caddf8&)
-
-###  \\/\\/\\/\\/\\/
-
-## for the right hand, the thumb and the pinky is switched
-
-- right hand left
-![](https://cdn.discordapp.com/attachments/1265341827930652703/1266059157975601384/image.png?ex=66a3c4f9&is=66a27379&hm=ed7974f495b65cf43fe5b265c97b2b5ce3421b9c965eb3cb3818c26d87c59c2d&)
-- right hand right
-![](https://cdn.discordapp.com/attachments/1265341827930652703/1266059279165816842/image.png?ex=66a3c516&is=66a27396&hm=e964b27732770f9626966751c5468fc987b5f2299a85530a8c97c9ff5853b0fd&)
-
-</details>
 </details>
 
 <details>
