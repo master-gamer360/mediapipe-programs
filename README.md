@@ -124,6 +124,19 @@ It uses hand gestures to play games that incorporate the WASD control scheme
 </details>
 </details>
 
+<details>
+<summary>volume.py</summary>
+
+## volume.py:
+it allows you to control the volume by moving your thumb and index finger.
+
+move them close to decrease, and move them further to increase.
+
+I used the keyboard library for simulating the volume controls.
+
+</details>
+
+
 # test files
 
 <details>
